@@ -8,7 +8,7 @@ pkgbase = freeipa
 	license = GPL3
 	makedepends = openldap
 	makedepends = krb5>=1.15.1
-	makedepends = xmlrpc-c>=1.27.4
+	makedepends = libxmlrpc
 	makedepends = popt
 	makedepends = gettext
 	makedepends = python
@@ -97,7 +97,7 @@ pkgname = freeipa-client
 	depends = authselect
 	depends = curl>=7.21.7
 	depends = yp-tools
-	depends = xmlrpc-c>=1.27.4
+	depends = libxmlrpc
 	depends = sssd>=1.14.0
 	depends = certmonger>=0.78
 	depends = nss
